@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rooms | Great Palm Hotel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="index.html" class="brand" aria-label="Great Palm Hotel home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 80 80" class="brand-logo" role="img" aria-label="Palm tree logo">
+              <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="36" y="42" width="8" height="24" rx="4" fill="#153427" />
+                <path d="M40 23c-8-10-18-10-24-2 9 2 16 11 18 21 3-4 5-11 6-19Z" fill="#153427"/>
+                <path d="M41 23c10-13 23-12 27-4-11 2-18 12-20 21-4-4-5-11-7-17Z" fill="#153427"/>
+                <path d="M42 29c-13-9-24-8-29-1 12 4 18 13 21 23 4-6 6-13 8-22Z" fill="#214d3e"/>
+                <path d="M40 29c12-11 24-11 30-2-12 5-18 15-21 25-4-6-6-14-9-23Z" fill="#214d3e"/>
+                <path d="M40 35c-15-4-27 0-32 9 15 4 24 3 31-8 1-1 1-1 1-1Z" fill="#2b5d4b"/>
+                <path d="M40 35c13-3 26 0 32 9-15 4-26 3-33-8-1-1 1-1 1-1Z" fill="#2b5d4b"/>
+              </g>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <strong>Great Palm</strong>
+            <small>Hotel</small>
+          </span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="rooms.html">Rooms</a>
+          <a href="dining.html">Dining</a>
+          <a href="amenities.html">Amenities</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="location.html">Location</a>
+          <a href="contact.html">Contact</a>
+          <button class="btn btn-primary nav-book" data-open-modal>Book Now</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-inner">
+          <div class="page-kicker">Stay beautifully</div>
+          <h1>Rooms and suites designed for slow, luxurious living.</h1>
+        </div>
+      </section>
+
+      <section class="page-intro">
+        <div class="container">
+          <div class="card-grid rooms-grid">
+            <article class="room-card">
+              <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?auto=format&fit=crop&w=900&q=80" alt="Country-style deluxe room" />
+              <div class="room-content">
+                <div class="room-header">
+                  <h3>Deluxe Garden Room</h3>
+                  <span>KSH 2,600/night</span>
+                </div>
+                <p>Soft linens, private terrace, and a calming garden outlook.</p>
+                <ul>
+                  <li>King bed</li>
+                  <li>Rainfall shower</li>
+                  <li>Breakfast included</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="room-card">
+              <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=900&q=80" alt="Premier rural suite view" />
+              <div class="room-content">
+                <div class="room-header">
+                  <h3>Premier Palm Suite</h3>
+                  <span>KSH 4,200/night</span>
+                </div>
+                <p>Spacious living room, elevated valley views, and quiet luxury.</p>
+                <ul>
+                  <li>Suite lounge</li>
+                  <li>Soaking tub</li>
+                  <li>VIP welcome</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="room-card">
+              <img src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=900&q=80" alt="Signature villa near green hills" />
+              <div class="room-content">
+                <div class="room-header">
+                  <h3>Signature Villa</h3>
+                  <span>KSH 6,100/night</span>
+                </div>
+                <p>Private indoor-outdoor living with personal countryside elegance.</p>
+                <ul>
+                  <li>2 bedrooms</li>
+                  <li>Pool deck</li>
+                  <li>Butler service</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <a href="index.html" class="brand footer-brand">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 80 80" class="brand-logo" role="img" aria-label="Palm tree logo">
+                <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="36" y="42" width="8" height="24" rx="4" fill="#153427" />
+                  <path d="M40 23c-8-10-18-10-24-2 9 2 16 11 18 21 3-4 5-11 6-19Z" fill="#153427"/>
+                  <path d="M41 23c10-13 23-12 27-4-11 2-18 12-20 21-4-4-5-11-7-17Z" fill="#153427"/>
+                  <path d="M42 29c-13-9-24-8-29-1 12 4 18 13 21 23 4-6 6-13 8-22Z" fill="#214d3e"/>
+                  <path d="M40 29c12-11 24-11 30-2-12 5-18 15-21 25-4-6-6-14-9-23Z" fill="#214d3e"/>
+                  <path d="M40 35c-15-4-27 0-32 9 15 4 24 3 31-8 1-1 1-1 1-1Z" fill="#2b5d4b"/>
+                  <path d="M40 35c13-3 26 0 32 9-15 4-26 3-33-8-1-1 1-1 1-1Z" fill="#2b5d4b"/>
+                </g>
+              </svg>
+            </span>
+            <span class="brand-text">
+              <strong>Great Palm</strong>
+              <small>Hotel</small>
+            </span>
+          </a>
+        </div>
+        <p>© <span id="year"></span> Great Palm Hotel</p>
+      </div>
+    </footer>
+
+    <div class="modal" id="bookingModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="booking-title">
+        <button class="modal-close" type="button" aria-label="Close booking form" data-close-modal>×</button>
+        <div class="modal-header">
+          <p class="eyebrow eyebrow-dark">Reservations</p>
+          <h3 id="booking-title">Book your stay</h3>
+        </div>
+        <form class="booking-form">
+          <div class="field-row two-up">
+            <label><span>Check-in</span><input type="date" required /></label>
+            <label><span>Check-out</span><input type="date" required /></label>
+          </div>
+          <div class="field-row two-up">
+            <label><span>Guests</span><select><option>2 Guests</option><option>3 Guests</option><option>4 Guests</option><option>5 Guests</option></select></label>
+            <label><span>Room</span><select><option>Deluxe Garden Room</option><option>Premier Palm Suite</option><option>Signature Villa</option></select></label>
+          </div>
+          <button class="btn btn-primary booking-submit" type="submit">Confirm Reservation</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
