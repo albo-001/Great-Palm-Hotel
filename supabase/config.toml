@@ -1,0 +1,23 @@
+[functions.mpesa-deposit]
+verify_jwt = true
+
+[functions.mpesa-payments]
+verify_jwt = true
+
+[functions.mpesa-callback]
+verify_jwt = false
+
+[functions.mpesa-withdrawal]
+verify_jwt = true
+
+[functions.mpesa-b2c-result]
+verify_jwt = false
+
+[functions.mpesa-b2c-timeout]
+verify_jwt = false
+
+[functions.transaction-status]
+verify_jwt = true
+
+[functions.mpesa-admin-reconcile]
+verify_jwt = true
